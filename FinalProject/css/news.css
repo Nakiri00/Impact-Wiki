@@ -443,7 +443,7 @@ section{
   nav .logo{
     width: 30%;
     position: absolute;
-    left: 0;
+    margin-left: 75px;
   }
 
   nav .logo img{

@@ -243,12 +243,12 @@ section{
 
 .third-content p{
   margin: 25px 40px;
+  padding: 10px 10px;
   text-align: justify;
   font-size: 18px;
   border: 2px solid grey;
   background: rgba(0, 0, 0, 0.384);
   border-radius: 15px;
-  padding: 10px 10px;
 }
 
 .fifth-content h1{

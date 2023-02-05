@@ -96,7 +96,6 @@ label{
 section{
   margin-top: 90px;
   background-color: rgba(32, 31, 31, 0.808);
-  min-width: 1800px;
 }
 
 .content-title{
@@ -157,7 +156,7 @@ section{
 }
 
 .wanderer-wish img{
-  max-width: 40%;
+  width: 40%;
   margin-left: 3%;
 }
 
@@ -185,16 +184,12 @@ section{
   margin-left: 3%;
 }
 
-.faruzan-desc li.name{
+.faruzan-desc li.name,.faruzan-desc li.WV{
   margin-left: 27%;
 }
 
-.faruzan-desc li.wp{
-  margin-left: 31%;
-}
-
 .faruzan-wish img{
-  max-width: 50%;
+  width: 50%;
   margin-left: 50%;
 }
 .second-content{
@@ -214,13 +209,16 @@ section{
 .second-content .Passive{
   margin-top: 125px;
   margin-bottom: 120px;
+  border: 2px solid grey;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.384);
+  padding: 10px 10px;
 }
 
-.first-weapon{
+.first-weapon,.second-weapon{
   margin: 25px 50px;
-  border: 2px solid grey;
-  border-radius: 20px;
-  background: rgba(0, 0, 0, 0.384);
+  text-align: justify;
+  
 }
 
 .first-weapon .Weapon1{
@@ -229,28 +227,12 @@ section{
   border-radius: 50px;
 }
 
-
-.second-weapon{
-  margin: 25px 50px;
-  border: 2px solid grey;
-  border-radius: 20px;
-  background: rgba(0, 0, 0, 0.384);
-}
-
 .second-weapon .Weapon2{
-  border: 2px solid grey;
-  background-color: rgb(104, 37, 104);
-  border-radius: 50px;
-  width: 14.5%;
-  height: 250px;
+    border: 2px solid grey;
+    background-color: rgb(104, 37, 104);
+    border-radius: 50px;
 }
 
-.third-content{
-  border: 2px solid grey;
-  background: rgba(0, 0, 0, 0.384);
-  border-radius: 15px;
-
-}
 
 .third-content img{
   border: 1px solid grey;
@@ -263,6 +245,9 @@ section{
   margin: 25px 40px;
   text-align: justify;
   font-size: 18px;
+  border: 2px solid grey;
+  background: rgba(0, 0, 0, 0.384);
+  border-radius: 15px;
 }
 
 .fifth-content h1{
@@ -443,7 +428,7 @@ section{
   nav .logo{
     width: 30%;
     position: absolute;
-    margin-left: 75px;
+    left: 0;
   }
 
   nav .logo img{
@@ -515,5 +500,172 @@ section{
     right: 50px;
     border-radius: 3px 0 0 3px;
   }
-}
 
+  .content-slide2 {
+    padding: 8px 50px 12px 50px;
+  }
+
+  .next2 {
+    right: 50px;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .content-slide3 {
+    padding: 8px 50px 12px 50px;
+  }
+
+  .next3 {
+    right: 50px;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .content-title{
+    font-size: 18px;
+  }
+
+  .sub-title,.sub-title2{
+    font-size: 18px;
+    letter-spacing: 8px;
+  }
+
+  .wanderer-desc, .faruzan-desc{
+    border: 0;
+    background: none;
+  }
+  
+
+  .first-content img{
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 70%;
+    border: 1px solid grey;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.808);
+  }
+
+
+  .wanderer-desc h1,.faruzan-desc h1{
+    font-size: 22px;
+    margin-bottom: 300px;
+    margin-left: 135px;
+    margin-top: -330px;
+  }
+  
+
+  
+  .wanderer-desc p, .wanderer-desc ul li {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+
+  .faruzan-desc p, .faruzan-desc ul li{
+    font-size: 18px;
+    margin-left: 15px;
+  }
+  
+  .wanderer-desc li.WV{
+    margin-left: 0;
+  }
+
+  .faruzan-desc li.WV{
+    margin-left: 160px;
+  }
+
+  .wanderer-desc ul li{
+    margin-left: -200px;
+  }
+
+  .faruzan-desc ul li{
+    margin-left: -10px;
+  }
+  .wanderer-desc ul li.name{
+    margin-left: 1px;
+  }
+  .faruzan-desc ul li.name{
+    margin-left: 160px;
+  }
+
+  .second-content p.Passive{
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-top: 30px;
+  }
+
+  .Weapon1,.Weapon2{
+    width: 50%;
+    margin-left: -50px;
+  }
+
+  .second-content .Stat{
+    font-size: 14px;
+    margin-left: 140px;
+    margin-top: -150px;
+  }
+
+  .second-content .Stat b{
+    font-size: 16px;
+  }
+
+  .third-content img{
+    width: 80%;
+    margin-left: 38px;
+    font-size: 14px;
+  }
+
+  .third-content p{
+    margin: 10px 10px;
+    padding: 10px 10px;
+  }
+
+  .imgslide img{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .prev, .next, .prev2, .next2, .prev3, .next3{
+    width: 10%;
+  }
+
+  .prev{
+    margin-left: -50px;
+  }
+
+  .next{
+    margin-right: -69px;
+  }
+
+  .page .dot,.page2 .dot2,.page3 .dot3{
+    width: 7px;
+    height: 7px;
+  }
+
+  .fifth-content h1{
+    font-size: 16px;
+  }
+
+  .imgslide2 img{
+    width: 100%;
+    margin-left: 3px;
+  }
+
+  .imgslide3 img{
+    width: 100%;
+    margin-left: 3px;
+  }
+
+  .prev2{
+    margin-left: -50px;
+  }
+
+  .next2{
+    margin-right: -69px;
+  }
+
+  .prev3{
+    margin-left: -50px;
+  }
+
+  .next3{
+    margin-right: -69px;
+  }
+}

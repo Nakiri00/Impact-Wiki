@@ -285,6 +285,8 @@ li.Sub{
 
   h1.region{
     font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   button#btn, button#btn66, button#btn67, button#btn68, button#btn69{

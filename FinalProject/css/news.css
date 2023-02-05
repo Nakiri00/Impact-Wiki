@@ -628,11 +628,13 @@ section{
   }
 
   .prev{
-    margin-left: -50px;
+    margin-left: 99px;
+    margin-top: 84px;
   }
 
   .next{
-    margin-right: -69px;
+    margin-right: 84px;
+    margin-top: 84px;
   }
 
   .page .dot,.page2 .dot2,.page3 .dot3{
@@ -655,18 +657,22 @@ section{
   }
 
   .prev2{
-    margin-left: -50px;
+    margin-left: 99px;
+    margin-top: 98px;
   }
 
   .next2{
-    margin-right: -69px;
+    margin-right: 84px;
+    margin-top: 98px;
   }
 
   .prev3{
-    margin-left: -50px;
+    margin-left: 99px;
+    margin-top: 85px;
   }
 
   .next3{
-    margin-right: -69px;
+    margin-right: 84px;
+    margin-top: 85px;
   }
 }

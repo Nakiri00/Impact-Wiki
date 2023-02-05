@@ -211,11 +211,15 @@ h1.Main-title{
   }
 
   .Content p{
-    margin-left: -140px;
+    margin-left: -130px;
+    margin-right: -10px;
+    
   }
 
   .Content li img{
-    margin-left: -140px ;
+    margin-left: -130px ;
+    margin-right: -10px;
+  
   }
 }
 

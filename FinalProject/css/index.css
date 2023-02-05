@@ -96,8 +96,6 @@ label{
 
 
 section{
-  min-width: 1500px;
-  max-width: 100%;
   background-color: rgba(0, 0, 0, 0.658);
 }
 
@@ -152,7 +150,7 @@ section{
 }
 
 .contact{
-  padding-left: 35%;
+  margin-left: 35%;
   padding-bottom: 40px;
 }
 
@@ -192,7 +190,7 @@ section{
   nav .logo{
     width: 30%;
     position: absolute;
-    left: 0;
+    margin-left: 75px;
   }
 
   nav .logo img{
@@ -245,8 +243,52 @@ section{
     transition: all 3s ease-out;
   }
   
-  section{
-    
-    background-size: cover;
+  .Content{
+    margin-left: -0.5px;
+    margin-right: -1px;
+    border-left: 0px;
+    border-right: 0px;
+  }
+
+  .Content .main-image{
+    margin-top: 85px;
+  }
+
+  .OP{
+    font-size: 28px;
+  }
+
+  .Sub{
+    font-size: 18px;
+  }
+
+  .Content p{
+    font-size: 12px;
+  }
+
+  .region{
+    font-size: 18px;
+  }
+
+  .footer h1{
+    font-size: 28px;
+  }
+
+  .contact img{
+    margin-left: -88px;
+  }
+
+  .contact .ig{
+    width: 15%;
+    margin-right: 50px;
+  }
+
+  .contact .gh{
+    width: 15%;
+    margin-right: 50px;
+  }
+
+  .contact .twt{
+    width: 15%;
   }
 }

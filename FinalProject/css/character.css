@@ -96,7 +96,6 @@ label{
 section{
   margin-top: 90px;
   background-color: rgba(32, 31, 31, 0.808);
-  min-width: 1800px;
 }
 
 h1.Main-title{
@@ -149,7 +148,7 @@ h1.Main-title{
   nav .logo{
     width: 30%;
     position: absolute;
-    left: 0;
+    margin-left: 75px;
   }
 
   nav .logo img{
@@ -197,10 +196,26 @@ h1.Main-title{
 
   }
 
-  
   nav #button:checked~ul{
     max-height: 100%;
     transition: all 3s ease-out;
+  }
+
+
+  h1.Main-title{
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-left: -1px;
+    margin-top: 20px;
+  }
+
+  .Content p{
+    margin-left: -150px;
+  }
+
+  .Content li img{
+    margin-left: -150px ;
   }
 }
 

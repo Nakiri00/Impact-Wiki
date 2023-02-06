@@ -321,7 +321,6 @@ section{
 
 
 .prev, .next, .prev2, .next2, .prev3, .next3 {
-  cursor: pointer;
   position: absolute;
   top: 40%;
   width: auto;

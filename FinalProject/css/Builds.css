@@ -330,6 +330,11 @@ li.Sub{
   .weap{
     margin-left: -125px;
     margin-bottom: 20px;
+    width: 350px;
+  }
+
+  img.Mistsplitter{
+    width: 130px;
   }
 
   .stats .logo img{
@@ -345,12 +350,11 @@ li.Sub{
 
   .logo p{
     margin-left: 90px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     margin-top: -45px;
 }
 
 
 }
-
 
 

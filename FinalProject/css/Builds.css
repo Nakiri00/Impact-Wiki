@@ -4,6 +4,12 @@ Hilman Fauzi Muharam
 If-8
 */
 
+/*
+Hilman Fauzi Muharam
+10122304
+If-8
+*/
+
 @font-face{
   font-family: HyWenHei;
   src: url(../font/zh-cn.ttf);
@@ -230,7 +236,7 @@ li.Sub{
   nav .logo{
     width: 30%;
     position: absolute;
-    margin-left: 75px;
+    left: 0;
   }
 
   nav .logo img{
@@ -301,7 +307,6 @@ li.Sub{
   }
 
   button.btn{
-    width: 30%;
     width: 70%;
   }
   
@@ -325,7 +330,7 @@ li.Sub{
   .textbelowart,.textbelowart2{
     margin-left: -125px;
     margin-bottom: 20px;
-    width: 90%;
+    width: 350px;
   }
 
   .weap{
@@ -345,10 +350,13 @@ li.Sub{
   }
 
   .logo p{
-    margin-left: 95px;
+    margin-left: 90px;
     margin-bottom: 40px;
     margin-top: -45px;
 }
 
 
 }
+
+
+

@@ -590,6 +590,7 @@ section{
     margin-left: -50px;
     margin-right: -50px;
     margin-top: 30px;
+    font-size: 12px;
   }
 
   .Weapon1,.Weapon2{
@@ -616,6 +617,7 @@ section{
   .third-content p{
     margin: 10px 10px;
     padding: 10px 10px;
+    font-size: 12px;
   }
 
   .imgslide img{

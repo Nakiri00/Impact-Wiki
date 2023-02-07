@@ -325,7 +325,6 @@ section{
   top: 40%;
   width: auto;
   padding: 16px;
-  color: rgb(255, 254, 224);
   transition: 0.1s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -424,7 +423,7 @@ section{
 
 
 
-@media only screen and (max-width: 936px) and (orientation: portrait)
+@media only screen and (max-width: 1080px) 
 {
   
   nav{
@@ -676,10 +675,13 @@ section{
   .prev3{
     margin-left: 99px;
     margin-top: 85px;
+
   }
 
   .next3{
     margin-right: 84px;
     margin-top: 85px;
+    
   }
 }
+

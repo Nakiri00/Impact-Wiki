@@ -144,7 +144,7 @@ h1.Main-title{
   background-color: rgb(104, 37, 104);
 }
 
-@media only screen and (max-width: 936px) and (orientation: portrait)
+@media only screen and (max-width: 1080px) 
 {
   
   nav{

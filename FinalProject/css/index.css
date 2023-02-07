@@ -179,8 +179,7 @@ section{
 .contact li img:hover{
   transform: scale(1.2);
 }
-@media only screen and (max-width: 936px) and (orientation: portrait)
-
+@media only screen and (max-width: 1080px) 
 {
   
   header .frame{
